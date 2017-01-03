@@ -52,7 +52,7 @@
                         
                         <div> 
                          <span style="color:white;margin-right:1%">Source: </span>    
-                         <a href="https://bitbucket.org/dmoduarte/vacaciones/src" class="card-link"><img src="https://maxcdn.icons8.com/Share/icon/Logos//bitbucket1600.png" alt="Card image" style="max-height:5%;max-width:5%;"></a>
+                         <a target="_blank" href="https://bitbucket.org/dmoduarte/vacaciones/src" class="card-link"><img src="https://maxcdn.icons8.com/Share/icon/Logos//bitbucket1600.png" alt="Card image" style="max-height:5%;max-width:5%;"></a>
                         </div>  
                     </div> 
                 </div>
@@ -60,12 +60,18 @@
                 
                 <div class="card">
                     <div class="card-block">
-                        <h4 class="card-title">File Server Replication and Sinchronization</h4>
+                        <h4 class="card-title">File Server Replication and Synchronization</h4>
                         <h6 class="card-subtitle text-muted"> Group project of Distributed Systems subject: Mar 2015 to May 2015, Faculdade de Ciências e Tecnologias UNL</h6>
                     </div>
                     
                      <div class="card-block">
-                        <p class="card-text">System responsible for the derivation of operational system's models (OLTP) to analytical models (OLAP)</p>
+                        <p class="card-text">In this project me and my <a href="https://github.com/Casper16PT"> colleague </a> developed a cloud-like system wherein we had clients, contact and file servers as main components.
+                        The goal of the client component is to send files to the file server component. The file server component could be phisically replicated, then it would synchronize with its replicas. Among the file server, its replicas and the client, there is a contact server which is used as: An interface component between the client and the file server, based on a command-line interface; A master component responsible for naming, managing the file servers, initialize the replication and synchronization processes.
+                        </p>
+                         
+                        <p class="card-text"> 
+                        We used the Java Remote Method Invocation <a target="_blank" href="https://en.wikipedia.org/wiki/Java_remote_method_invocation">(Java RMI) </a> as interface of comunication between the components. Lastly, we included the Dropbox services in our file server group by using their REST API and a proxy also developed by us. Every time the client would upload a file to Dropbox, using the contact server CLI, our primary file server and its replicas would synchronize with the Dropbox services.
+                        </p>
                          
                         <div> 
                              <span style="color:white;margin-right:1%">Technologies used: </span>  
@@ -75,7 +81,7 @@
                         
                         <div> 
                          <span style="color:white;margin-right:1%">Source: </span>    
-                         <a href="https://github.com/dmoduarte/SD" class="card-link"><img src="http://newmerator.github.io/blacktocat.png" alt="Card image" style="max-height:5%;max-width:5%;"></a>
+                         <a target="_blank" href="https://github.com/dmoduarte/SD" class="card-link"><img src="http://newmerator.github.io/blacktocat.png" alt="Card image" style="max-height:5%;max-width:5%;"></a>
                         </div>                        
                     </div> 
                 </div>
@@ -89,20 +95,20 @@
                     
                      <div class="card-block">
                          
-                         <p class="card-text"> Based upon the ideas of the article : "From Enterprise Models to Dimensional Models: A Methodology for Data Warehouse and Data Mart Design" - from Daniel L. Moody", the goal of this system is to support the user on the derivation of transactional models (<a href="http://datawarehouse4u.info/OLTP-vs-OLAP.html">OLTP</a> models) to analytical models (<a href="http://datawarehouse4u.info/OLTP-vs-OLAP.html">OLAP</a> models), used to store historical information for analytical purposes, e.g. Reporting. </p>
+                         <p class="card-text"> Based upon the ideas of the article : "From Enterprise Models to Dimensional Models: A Methodology for Data Warehouse and Data Mart Design" - from Daniel L. Moody", the goal of this system is to support the user on the derivation of transactional models (<a target="_blank" href="http://datawarehouse4u.info/OLTP-vs-OLAP.html">OLTP</a> models) to analytical models (<a target="_blank" href="http://datawarehouse4u.info/OLTP-vs-OLAP.html">OLAP</a> models), used to store historical information for analytical purposes, e.g. Reporting. </p>
                          
                          <p class="card-text"> The prototype uses a MySQL JDBC driver to connect with a MySQL database to extract the metadata from a 3NF relational schema. Then, based on the concepts from the article it heuristically classifies and processes the entities to come up with a multidimensional model. At any time the user can interact with the model, which is graphically presented with the JGraph - a Java graph library.</p>
                          
                         <div> 
                              <span style="color:white;margin-right:1%">Technologies used: </span>  
-                             <a class="card-link"><img src="https://forum.jgraph.com/upfiles/jgraph-logo-connect-transparent_2.png" alt="Card image" style="max-height:10%;max-width:10%;"></a> 
-                             <a class="card-link"><img src="http://logodatabases.com/wp-content/uploads/2012/03/java-icon.png" alt="Card image" style="max-height:3%;max-width:3%;"></a>
-                             <a class="card-link"><img src="https://www.mysql.com/common/logos/logo-mysql-170x115.png" alt="Card image" style="max-height:5%;max-width:5%;"></a>   
+                             <a target="_blank" class="card-link"><img src="https://forum.jgraph.com/upfiles/jgraph-logo-connect-transparent_2.png" alt="Card image" style="max-height:10%;max-width:10%;"></a> 
+                             <a target="_blank" class="card-link"><img src="http://logodatabases.com/wp-content/uploads/2012/03/java-icon.png" alt="Card image" style="max-height:3%;max-width:3%;"></a>
+                             <a target="_blank" class="card-link"><img src="https://www.mysql.com/common/logos/logo-mysql-170x115.png" alt="Card image" style="max-height:5%;max-width:5%;"></a>   
                         </div>
                         
                         <div> 
                          <span style="color:white;margin-right:1%">Source: </span>    
-                         <a href="https://github.com/dmoduarte/DW/tree/master/src/dw" class="card-link"><img src="http://newmerator.github.io/blacktocat.png" alt="Card image" style="max-height:5%;max-width:5%;"></a>
+                         <a target="_blank" href="https://github.com/dmoduarte/DW/tree/master/src/dw" class="card-link"><img src="http://newmerator.github.io/blacktocat.png" alt="Card image" style="max-height:5%;max-width:5%;"></a>
                         </div> 
                     </div> 
  
@@ -151,6 +157,30 @@
                       </a>
                     </div>
    
+                </div>
+                
+                   <div class="card">
+                    <div class="card-block">
+                        <h4 class="card-title">Business Intelligence solution for Energy and Utilities</h4>
+                        <h6 class="card-subtitle text-muted">Project taken during the bachelor's curricular internship: May 2014 to Jul 2014, Novabase</h6>
+                    </div>
+                    
+                     <div class="card-block">
+                        <p class="card-text">In this project me and my colleague developed a Business Intelligence (BI) solution, under the supervision of our team leader for an utility client. The goal was to have a set of reports that displays the corporate information for analytical contexts given a set of information (real) generated from smart energy equipments.</p>
+                         
+                        <div> 
+                             <span style="color:white;margin-right:1%">Technologies used: </span>  
+                             <a class="card-link"><img title="PostreSQL" src="http://logo-load.com/uploads/posts/2016-08/postgresql-logo.png" alt="Card image" style="max-height:6%;max-width:6%;"></a>  
+                             <a class="card-link"><img title="Talend" src="http://www.talend.com/sites/default/files/partners/logo-templates-guidelines/JPG/talend_logo_r_196x85.jpg" alt="Card image" style="max-height:8%;max-width:8%;"></a>                    
+                             <a class="card-link"><img title="Oracle Business Intelligence" src="http://esshatechnologies.com/wp-content/uploads/2015/04/oracle_bi_logo_.png" alt="Card image" style="max-height:10%;max-width:10%;"></a>
+                             <a class="card-link"><img title="SAP Business Objects" src="http://www.ozsoft-consulting.com/images/bobj-logo.png" alt="Card image" style="max-height:10%;max-width:10%;"></a>       
+                        </div>
+                        
+                        <div> 
+                         <span style="color:white;margin-right:1%">Source: </span>    
+                         <a target="_blank" href="https://bitbucket.org/dmoduarte/vacaciones/src" class="card-link"><img src="https://maxcdn.icons8.com/Share/icon/Logos//bitbucket1600.png" alt="Card image" style="max-height:5%;max-width:5%;"></a>
+                        </div>  
+                    </div> 
                 </div>
                 
             </div>
