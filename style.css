@@ -57,14 +57,11 @@
     padding: 15 15 15 15;
 }
 
-.projects div{
+.card{
     background-color: #505050;
     height: auto;
 }
 
-.projectdesc{
-    display: inline-block;
-}
 
 .projectdescimg{
     max-height:20%;
@@ -78,4 +75,13 @@
 .referenceimg{
     max-height:10%;
     max-width:10%;
+}
+
+.carouselimg{
+    margin: auto;
+    display: block;
+}
+
+.carousel-caption{
+    color: black;
 }
