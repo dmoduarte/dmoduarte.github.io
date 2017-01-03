@@ -62,6 +62,10 @@
     height: auto;
 }
 
+.card-block{
+    width: 100%;
+}
+
 .card-text, .card-title{
     color: white;
     width: 100%;
