@@ -33,13 +33,12 @@
   height: 100%;
 }
 
-.topnavbutton p{  
+.topnavbutton span{  
     position: absolute;
     text-align: center;
     top: 50%;
     left:50%;
     transform: translate(-50%, -59%);
-    margin: 0 0 0 0;
     font-size: 15;
     background-color: #505050;
     color:aliceblue;
@@ -58,12 +57,12 @@
 }
 
 .card{
-    background-color: #505050;
+    background-color: #ebeaef; /*#505050*/
     height: auto;
 }
 
 .card-text, .card-title{
-    color: white;
+    color: #505050;
 }
 
 .referenceimg{
