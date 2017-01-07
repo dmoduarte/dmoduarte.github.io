@@ -65,15 +65,32 @@
 }
 
 .body{
-    background-color: #505050;
-    width: 100%;
-    padding: 8vh 0 15 0;
+    position: relative;
+    top:9vh;
+}
+
+.body>div{
+   display: none;
+}
+
+.body>div.active{
+    display: block;
 }
 
 .projects{
-    background-color: white;
+    position: absolute;
+    top:0;
+    left:0;
     width: 100%;
-    padding: 15 15 15 15;
+    padding: 0 15 0 15;
+}
+
+.contact{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    padding: 0 15 0 15;
 }
 
 .card{
