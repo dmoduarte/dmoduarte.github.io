@@ -14,12 +14,12 @@
     position: absolute;
 }
 
-.topnav{
+.topnav, .topnavmobile{
     width: 100%;
     height: 100%;
 }
 
-.topnav h2{
+.topnav h2, .topnavmobile h2{
     display: inline-block;
     margin: 1vh 0 0 1vh;
     font-size: 4vh;
@@ -37,31 +37,99 @@
     float: right;
 }
 
+.topnavmobile a i{
+    display: inline-block;
+    right: 0;
+    float: right;
+    font-size: 3em; 
+    margin:0 20 0 0;
+}
+
 .topnav ul li{
     display: inline;
 }
 
-.topnavbutton{
-  position: relative;
-  display: inline-block;
-  width: 45%;
-  height: 100%;
-}
 
 .topnavbutton.active{
     border-bottom: solid;
     border-bottom-color: #42ff42;
 }
 
-.topnavbutton span{  
-    position: absolute;
-    text-align: center;
-    top: 50%;
-    left:50%;
-    transform: translate(-50%, -59%);
-    font-size: 15;
-    background-color: #505050;
-    color:aliceblue;
+
+
+@media only screen and (max-width: 700px) {
+    .topnav{
+        display: none !important;
+    }
+    #show-more{ 
+        height:0;
+        overflow: hidden;
+    	-webkit-transition:-webkit-transform .3s ease;
+        -moz-transition:   -moz-transform .3s ease;
+        -ms-transition:    -ms-transform .3s ease;
+            transition:        transform .3s ease;
+        
+        
+       -webkit-transform: translate(0, -100%);
+       -moz-transform: translate(0, -100%);
+        -ms-transform: translate(0, -100%);
+            transform: translate(0, -100%);
+        
+    }
+    .topnavbutton{
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+    }
+  .topnavbutton span{  
+        position: absolute;
+        text-align: center;
+        top: 50%;
+        left:50%;
+        transform: translate(-50%, -59%);
+        font-size: 15;
+        background-color: #505050;
+        color:aliceblue;
+    }
+    
+    #show-more.active{
+        height:auto;
+        background-color:#505050;
+        list-style: none;
+        padding: 0 0 0 0; 
+        
+        -webkit-transform: translate(0, 0%);
+       -moz-transform: translate(0, 0%);
+        -ms-transform: translate(0, 0%);
+            transform: translate(0, 0%)
+        
+    }
+}
+
+@media only screen and (min-width: 701px) {
+    .topnavmobile,#show-more{
+        display: none !important;
+    }
+
+    .topnavbutton{
+       position: relative;
+       display: inline-block;
+       width: 45%;
+       height: 100%;
+    }
+    
+    .topnavbutton span{  
+        position: absolute;
+        text-align: center;
+        top: 50%;
+        left:50%;
+        transform: translate(-50%, -59%);
+        font-size: 15;
+        background-color: #505050;
+        color:aliceblue;
+    }
+    
 }
 
 .body{
