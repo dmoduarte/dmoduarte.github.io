@@ -52,7 +52,7 @@
 
 .topnavbutton.active{
     border-bottom: solid;
-    border-bottom-color: #42ff42;
+    border-bottom-color: #42ff42 !important;
 }
 
 
@@ -76,6 +76,9 @@
             transform: translate(0, -100%);
         
     }
+    #show-more>li{
+        height:50%;
+    }
     .topnavbutton{
         position: relative;
         display: inline-block;
@@ -94,7 +97,7 @@
     }
     
     #show-more.active{
-        height:auto;
+        height:25vh;
         background-color:#505050;
         list-style: none;
         padding: 0 0 0 0; 
