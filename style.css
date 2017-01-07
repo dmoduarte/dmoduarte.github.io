@@ -41,8 +41,8 @@
     display: inline-block;
     right: 0;
     float: right;
-    font-size: 3em; 
-    margin:0 20 0 0;
+    font-size: 4vh; 
+    margin: 1vh 3vh 0 1vh;
 }
 
 .topnav ul li{
