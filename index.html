@@ -12,6 +12,8 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
         
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        
+        <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
 
         <script src="script.js"></script>
     
@@ -75,48 +77,92 @@
                              These components were integrated with the implementation of a REST web-service.
                          </p>
                          
-                        <p class="card-text"> 
-                             <span style="color:#505050;margin-right:1%">Client side technologies: </span>                         
-                             <a class="card-link"><img title="Highcharts" src="images/icons/highcharts.png" alt="Highcharts" style="max-height:10%;max-width:10%;"></a> 
-                             <a class="card-link"><img title="Gridstack" src="images/icons/grid.png" style="max-height:2%;max-width:2%;margin-right:1%"><span>GRIDSTACK.JS</span></a>                 
-                            <a class="card-link"><img title="Ionic framework" src="images/icons/ionic.png" alt="Ionic" style="max-height:5%;max-width:5%;"></a>   
-                             <a class="card-link"><img title="Angular JS" src="images/icons/angularjs.png" alt="Angular JS" style="max-height:5%;max-width:5%;"></a>
-                             <a class="card-link"><img title="HTML 5" src="images/icons/HTML5.png" alt="HTML5" style="max-height:5%;max-width:5%;"></a>
-                             <a class="card-link"><img title="CSS 3" src="images/icons/CSS3.png" alt="CSS3" style="max-height:4%;max-width:4%;"></a>
-                             <a class="card-link"><img title="Apache Cordova" src="images/icons/ApacheCordova.png" alt="Cordova" style="max-height:8%;max-width:8%;"></a>
-                             <a class="card-link"><img title="SQLite" src="images/icons/SQLite.png" alt="SQLite" style="max-height:8%;max-width:8%;"></a>
-                        </p>
-                         
-                        <p class="card-text"> 
-                             <span style="color:#505050;margin-right:1%">Server side technologies: </span>  
-                             <a class="card-link"><img title="Spring framework" src="images/icons/Spring.png" alt="Spring" style="max-height:8%;max-width:8%;"></a>
-                             <a class="card-link"><img title="Java" src="images/icons/Java.png" alt="Java" style="max-height:3%;max-width:3%;"></a>  
-                             <a class="card-link"><img title="Eclispe Epsilon framework" src="images/icons/epsilon.png" alt="Epsilon" style="max-height:8%;max-width:8%;"></a>
-                        </p> 
-                        
-                     <!--   <p class="card-text"> 
-                         <span style="color:#505050;margin-right:1%">Editor component source: </span>    
-                            <a target="_blank" href="https://bitbucket.org/dmoduarte/widgetgenerator/src/077349eb4631/src/main/webapp/resources/editor/?at=master" class="card-link"><img src="images/icons/bitbucket.png" alt="Bitbucket icon" style="max-height:5%;max-width:5%;"></a>
-                        </p>  
-                        <p class="card-text"> 
-                             <span style="color:#505050;margin-right:1%">Server component source: </span>    
-                             <a target="_blank" href="https://bitbucket.org/dmoduarte/widgetgenerator/src/077349eb46310a367f8d4c8a08aebc725d7a5a9a/src/main/java/com/novabase/widgetGenerator/?at=master" class="card-link"><img src="images/icons/bitbucket.png" alt="Bitbucket icon" style="max-height:5%;max-width:5%;"></a>
-                        </p> -->
-                         
+                         <p class="card-text">
+                            <table style="width:100%">
+                                <tr>
+                                    <th class="modal-opener">
+                                        <span style="color:#505050;margin-right:1%">Client technologies </span>
+                                        <a class="btn btn-secondary" data-toggle="modal" data-target="#mbi-client-tech-modal" href="#">
+                                            <i class="fa fa-expand fa-2x" aria-hidden="true"></i>
+                                        </a>
+                                    </th>
+                                    <th class="modal-opener">
+                                        <span style="color:#505050;margin-right:1%">Server technologies </span>
+                                        <a class="btn btn-secondary" data-toggle="modal" data-target="#mbi-server-tech-modal" href="#">
+                                            <i class="fa fa-expand fa-2x" aria-hidden="true"></i>
+                                        </a>
+                                    </th>
+                                    <th class="modal-opener">
+                                        <span style="color:#505050;margin-right:1%">Project screenshots: </span>
+                                        <a class="btn btn-secondary" data-toggle="modal" data-target="#mbi-screenshots-modal" href="#">
+                                            <i class="fa fa-expand fa-2x" aria-hidden="true"></i>
+                                        </a>
+                                    </th>
+                                </tr>
+                            </table>
+                         </p>
+
                     </div> 
                     
-                      <!-- Trigger the modal with a button -->
-                    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#mbi-modal">Open Modal</button>
-
-                    <!-- Modal -->
-                    <div id="mbi-modal" class="modal fade" role="dialog">
+                    <!-- Client side technologies Modal -->
+                    <div id="mbi-client-tech-modal" class="modal fade" role="dialog">
                       <div class="modal-dialog">
 
                         <!-- Modal content-->
                         <div class="modal-content">
                           <div class="modal-header">
                             <button type="button" class="close" data-dismiss="modal">&times;</button>
-                            <h4 class="modal-title">A Model-Driven Approach for Mobile Business Intelligence</h4>
+                            <h4 class="modal-title">A Model-Driven Approach for Mobile Business Intelligence: Client side technologies</h4>
+                          </div>
+                          <div class="modal-body">
+                             <img title="Highcharts" src="images/icons/highcharts.png" alt="Highcharts" style="max-height:20vh;max-width:20vw"> 
+                             <img style="max-height:20vh;max-width:20vw"><span class="fa fa-th fa-3x"> Gridstack.js</span></img>             
+                             <img title="Angular JS" src="images/icons/angularjs.png" alt="Angular JS" style="max-height:20vh;max-width:20vw">
+                             <img title="HTML 5" src="images/icons/HTML5.png" alt="HTML5" style="max-height:20vh;max-width:20vw">
+                             <img title="CSS 3" src="images/icons/CSS3.png" alt="CSS3" style="max-height:20vh;max-width:20vw">
+                             <img title="Apache Cordova" src="images/icons/ApacheCordova.png" alt="Cordova" style="max-height:20vh;max-width:20vw">
+                             <img title="SQLite" src="images/icons/SQLite.png" alt="SQLite" style="max-height:20vh;max-width:20vw">
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+                    
+                    <!-- Server side technologies Modal -->
+                    <div id="mbi-server-tech-modal" class="modal fade" role="dialog">
+                      <div class="modal-dialog">
+
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">A Model-Driven Approach for Mobile Business Intelligence: Server side technologies</h4>
+                          </div>
+                          <div class="modal-body">
+                             <img title="Spring framework" src="images/icons/Spring.png" alt="Spring" style="max-height:20vh;max-width:20vw;">
+                             <img title="Java" src="images/icons/Java.png" alt="Java" style="max-height:20vh;max-width:20vw;"> 
+                             <img title="Eclispe Epsilon framework" src="images/icons/epsilon.png" alt="Epsilon" style="max-height:20vh;max-width:20vw;">
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+                    
+                    <!-- Screenshots Modal -->
+                    <div id="mbi-screenshots-modal" class="modal fade" role="dialog">
+                      <div class="modal-dialog">
+
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">A Model-Driven Approach for Mobile Business Intelligence: Screenshots</h4>
                           </div>
                           <div class="modal-body">
                             <div id="mbi-carousel" class="carousel slide card-block" data-ride="carousel">
