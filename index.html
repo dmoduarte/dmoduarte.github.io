@@ -21,122 +21,51 @@
     <body>
         <header class="header">             
             <div class="topnav"> 
-                <h2>David Duarte</h2>
+                <h2 style="margin-right: 1%">David Duarte</h2>
+                <a target="_blank" href="https://www.linkedin.com/in/david-duarte-95a59695?trk=nav_responsive_tab_profile" class="card-link">
+                  <img src="images/icons/linkedin.png" alt="Card image" style="height:50%;max-width:10vw;">
+                </a>
+                <a href="https://github.com/dmoduarte" target="_blank">
+                  <img title="GitHub" src="images/icons/github.png" alt="GitHub" style="height:50%;max-width:10vw;">
+                </a>
+                <a href="https://bitbucket.org/dmoduarte" target="_blank"> 
+                  <img title="Bitbucket" src="images/icons/bitbucket.png" alt="Bitbucket" style="height:50%;max-width:10vw;">
+                </a>
                 <ul>
-                    <li>
-                        <a href="#" id="home-opener" class="tab-opener topnavbutton active" data-tab="home"><span>Home</span></a>
-                    </li>
                     <li>
                         <a href="#" id="projects-opener" class="tab-opener topnavbutton" data-tab="projects"><span>Portfolio</span></a>
                     </li>
                     <li>
-                        <a href="#" id="contacts-opener" class="tab-opener topnavbutton" data-tab="contact"><span>Contact</span></a>
+                        <a href="#" id="resume-opener" class="tab-opener topnavbutton" data-tab="resume"><span>Resume</span></a>
                     </li>
                 </ul>
             </div>
             <div class="topnavmobile"> 
                 <h2>David Duarte</h2>
+                <a target="_blank" href="https://www.linkedin.com/in/david-duarte-95a59695?trk=nav_responsive_tab_profile" class="card-link">
+                  <img src="images/icons/linkedin.png" alt="Card image" style="height:50%;max-width:10vw;">
+                </a>
+                <a href="https://github.com/dmoduarte" target="_blank">
+                  <img title="GitHub" src="images/icons/github.png" alt="GitHub" style="height:50%;max-width:10vw;">
+                </a>
+                <a href="https://bitbucket.org/dmoduarte" target="_blank"> 
+                  <img title="Bitbucket" src="images/icons/bitbucket.png" alt="Bitbucket" style="height:50%;max-width:10vw;">
+                </a>
                 <a href="#show-more">
                     <i class="fa fa-bars" aria-hidden="true" style="color:black"></i>
                 </a>
             </div>
             <ul id="show-more">
                 <li>
-                    <a href="#" id="home-opener" class="tab-opener topnavbutton active" data-tab="home"><span>Home</span></a>
-                </li>
-                <li>
                     <a href="#" id="projects-opener" class="tab-opener topnavbutton" data-tab="projects"><span>Portfolio</span></a>
                 </li>
                   <li>
-                    <a href="#" id="contacts-opener" class="tab-opener topnavbutton" data-tab="contact"><span>Contact</span></a>
+                    <a href="#" id="resume-opener" class="tab-opener topnavbutton" data-tab="resume"><span>Resume</span></a>
                 </li>
             </ul>
         </header>
         <div class="body">
-            <div class="home active">
-                <p class="hello">Hello</p>
-                <span class="name">My name is David Duarte, I'm a Software Developer with focus on backend and some experience on front-end.</span>   
-                <ul>
-                    <li class="github">
-                        <a href="https://github.com/dmoduarte" target="_blank">
-                            <img title="HTML 5" src="images/icons/github.png" alt="HTML5" style="max-height:10vh;max-width:10vw;">
-                        </a>
-                    </li>
-                    <li class="bitbucket">
-                        <a href="https://bitbucket.org/dmoduarte" target="_blank"> 
-                            <img title="HTML 5" src="images/icons/bitbucket.png" alt="HTML5" style="max-height:10vh;max-width:10vw;">
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            
-            <div class="projects">   
-                
-                <div class="card">
-                    <div class="card-block">
-                        <h4 class="card-title">Portfolio</h4>
-                        <h6 class="card-subtitle text-muted">Personal project</h6>
-                    </div>
-                    
-                     <div class="card-block">
-                         
-                        <p class="card-text">
-                            In my portfolio I talk about myself. A kind of personal page, with information spread across different tabs, where I describe my gained experience and projects I've participated in. You also can find my <a href="#" id="contacts-opener" class="tab-opener" data-tab="contact" target="_blank"><span>contacts</span></a> there.
-                        </p>
-                        <p class="card-text">
-                           You are actually looking at it, so no need to post screenshots :D
-                        </p>
-                         <p class="card-text">
-                           When I have free times, I make some updates to my portfolio page, create and track issues for future versions. Please feel free to click 'Project Source' for more information. In <a href="https://dmoduarte.github.io/staging/" target="_blank">here</a>, you can find the staging area, it's where I publish some last developmemts for testing purposes, before merging into the official version.
-                        </p>
-                        <p class="card-text">
-                           You can find the technologies I've used by clicking 'Used technologies'.
-                        </p>
-                        <p class="card-text">
-                            <table style="width:100%">
-                                    <tr>
-                                        <th class="modal-opener">
-                                            <span class="opener-title">Used technologies</span>
-                                            <a class="btn btn-secondary" data-toggle="modal" data-target="#portfolio-tech-modal" href="#">
-                                                <i class="fa fa-expand fa-2x" aria-hidden="true"></i>
-                                            </a>
-                                        </th>
-                                        <th class="modal-opener">
-                                            <span class="opener-title">Project source </span>
-                                            <a class="btn btn-secondary" target="_blank" href="https://github.com/dmoduarte/dmoduarte.github.io" class="card-link">
-                                                 <i class="fa fa-code fa-2x" aria-hidden="true"></i>
-                                            </a>
-                                        </th>
-                                    </tr>
-                            </table>
-                        </p>
-                    </div>
-                    
-                    <!-- Technologies Modal -->
-                    <div id="portfolio-tech-modal" class="modal fade" role="dialog">
-                      <div class="modal-dialog">
-
-                        <!-- Modal content-->
-                        <div class="modal-content">
-                          <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal">&times;</button>
-                            <h4 class="modal-title">Portfolio: Technologies used</h4>
-                          </div>
-                          <div class="modal-body">
-                             <img title="Github-pages" src="images/icons/github-pages.png" alt="Github-pages" style="max-height:20vh;max-width:20vw;">
-                             <img title="JQuery" src="images/icons/jQurery.gif" alt="JQuery" style="max-height:20vh;max-width:20vw;">
-                             <img title="HTML 5" src="images/icons/HTML5.png" alt="HTML5" style="max-height:20vh;max-width:20vw;">
-                             <img title="CSS 3" src="images/icons/CSS3.png" alt="CSS3" style="max-height:20vh;max-width:20vw;">
-                          </div>
-                          <div class="modal-footer">
-                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                          </div>
-                        </div>
-
-                      </div>
-                    </div>
-                </div>
-        
+            <div class="projects active">   
 
                 <div class="card">
    
@@ -153,7 +82,7 @@
                              the problem of user empowerment, with easy configuration and semi-automatic
                              generation of analytical widgets (mainly charts). To provide such feature to the end user, from a theoretical and conceptual perspective the proposed prototype
                              is based on the design of a Domain Specific Modeling Language (DSML), aligned with the
-                             Model-Driven Development (MDD) approach and inspired by the Product Lines (SPL) principles. I did this work and wrote the thesis document under the supervision of my academic mentor <a href="https://pt.linkedin.com/in/vasco-amaral-5653435/pt">Vasco Amaral</a> and my professional mentor <a href="https://pt.linkedin.com/in/nuno-gomes-67432a36">Nuno Gomes</a>.
+                             Model-Driven Development (MDD) approach and inspired by the Product Lines (SPL) principles.
                          </p>
                          
                          <p class="card-text">
@@ -325,7 +254,7 @@
                      <div class="card-block">
                          
                         <p class="card-text">
-                            In this group project, me and my colleagues (<a target="_blank" href="https://www.linkedin.com/in/andr%C3%A9-sampaio-ab5059100">André</a> and <a target="_blank" href="https://www.linkedin.com/in/jo%C3%A3o-fernandes-a17059100">João</a>) developed an hotel booking prototype where we focused, mainly, on the views, web services and access management. 
+                            In this group project, me and my group colleagues developed an hotel booking prototype where we focused, mainly, on the views, web services and access management. 
                             There was different types of user groups which provided different accesses on the web site: Administrators, Hotel Administrators, Review Moderators and Clients.
                             
                             <ul>
@@ -484,7 +413,7 @@
                     </div>
                     
                      <div class="card-block">
-                        <p class="card-text">In this project me and my <a target="_blank" href="https://github.com/Casper16PT"> colleague </a> developed a cloud-like system wherein we had clients, contact and file servers as main components.
+                        <p class="card-text">In this project me and my group colleague developed a cloud-like system wherein we had clients, contact and file servers as main components.
                         The goal of the client component is to send files to the file server component. The file server component could be phisically replicated, then it would synchronize with its replicas. Among the file server, its replicas and the client, there is a contact server which is used as: An interface component between the client and the file server, based on a command-line interface; A master component responsible for naming, managing the file servers, initialize the replication and synchronization processes.
                         </p>
                          
@@ -663,66 +592,7 @@
                       </div>
                     </div>
                 </div>
-                
-                   <div class="card">
-                    <div class="card-block">
-                        <h4 class="card-title">Business Intelligence solution for Energy and Utilities</h4>
-                        <h6 class="card-subtitle text-muted">Project taken during the bachelor's curricular internship: Abr 2014 to Jul 2014, Novabase</h6>
-                    </div>
-                    
-                     <div class="card-block">
-                       
-                         <p class="card-text">In this project me and my <a target="_blank" href="https://pt.linkedin.com/in/carlos-lima-b1588367">colleague</a> developed a Business Intelligence (BI) solution, under the supervision of our team leader, for an utility client. The final goal is to have a set of reports that displays the corporate information for analytical contexts given a set of information (real) generated from energy equipments.
-                         </p>
-                         
-                         <p class="card-text">
-                          The BI solution is a layered architecture which is responsible for periodically extract operational data from operational sources, transform it and load it (ETL) into analytical Data Warehouse. The data that resides there is then presented in reports.
-                         </p>
-                         
-                         <p class="card-text">
-                             The ETL processes were developed and exported using Talend Open Source Data Integrator. The Data Warehouse was implemented with PostgreSQL and the reports designed and implemented with SAP Business Objects WEBI. The SAP reports were then integrated into a product from Novabase using a SAP BO SDK.
-                         </p>
-                         
-                        <p class="card-text">
-                            <table style="width:100%">
-                                    <tr>
-                                        <th class="modal-opener">
-                                            <span class="opener-title">Technologies used </span>
-                                            <a class="btn btn-secondary" data-toggle="modal" data-target="#biseu-tech-modal" href="#">
-                                                <i class="fa fa-expand fa-2x" aria-hidden="true"></i>
-                                            </a>
-                                        </th>
-                                    </tr>
-                            </table>
-                        </p>
-
-                    </div> 
-                       
-                    <!-- Technologies Modal -->
-                    <div id="biseu-tech-modal" class="modal fade" role="dialog">
-                          <div class="modal-dialog">
-
-                            <!-- Modal content-->
-                            <div class="modal-content">
-                              <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                <h4 class="modal-title">Business Intelligence solution for Energy and Utilities: Technologies used</h4>
-                              </div>
-                              <div class="modal-body">
-                                <img title="PostreSQL" src="images/icons/postgres.png" alt="PostgreSQL" style="max-height:20vh;max-width:20vw;">
-                                <img title="Talend OSDI" src="images/icons/talend.png" alt="Talend" style="max-height:20vh;max-width:20vw;">
-                                <img title="SAP Business Objects" src="images/icons/sapbo.png" alt="SAP BO" style="max-height:20vh;max-width:20vw;">
-                                <img src="images/icons/Java.png" alt="Java" title="Java" style="max-height:20vh;max-width:20vw;">  
-                              </div>
-                              <div class="modal-footer">
-                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                              </div>
-                            </div>
-
-                          </div>
-                    </div>
-                </div>
-                
+                                
             </div>
              
             <div class="contact">
