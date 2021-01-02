@@ -1,0 +1,4 @@
+# Ignore all settings directories
+.settings
+.idea
+.idea_modules
