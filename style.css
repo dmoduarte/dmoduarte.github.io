@@ -209,38 +209,15 @@
 }
 
 .carouselimg {
-    margin: auto;
     display: block;
+    max-width: 100%;
+    max-height: 100%;
 }
 
-.carousel-caption {
-    color: black;
-}
-
-.modal-body.flex {
+.carousel-item > .fixed-carousel-item {
+    height: 35vh;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-content: center;
-}
-
-.modal-body.flex .flex-item {
-    flex-grow: 1;
-    height: 20vh;
-    width: 20vw;
-    text-align: center;
-    white-space: nowrap;
-    padding: 20px;
-}
-
-.modal-body.flex .flex-item img {
-    vertical-align: middle;
-    max-height: 100%;
-    max-width: 100%;
-}
-
-.modal-body.flex .helper {
-    display: inline-block;
-    height: 100%;
-    vertical-align: middle;
 }
