@@ -193,12 +193,14 @@ const projectDialogs = [
 
 $(document).ready(function () {
     generateTemplatedCode();
-    initializeCarousels();
+    initializePage();
 });
 
-const initializeCarousels = function () {
+const initializePage = function () {
+    //init carousel
     $(".carousel").carousel();
 
+    //add event handler to tab opener
     $(".tab-opener").on('click', function (e) {
 
         $(".topnavbutton.active").removeClass("active");
